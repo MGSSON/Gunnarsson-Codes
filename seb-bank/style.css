@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "SansSerif-Regular";
+  src: url(/fonts/SEBSansSerif-Regular.ttf);
+}
+
+body {
+  font-family: "SansSerif-Regular";
+}
+
+/* buttons hover */
+.main-content-heading a:hover,
+.btn-login:hover {
+  background-color: #41b0ee;
+}
+
+.article-two-text a:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+
+/* text hover */
+
+.
+
+/* header-content */
+
+.hero {
+  width: 100%;
+  height: 6rem;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/seb-backround.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.header-top-container {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: flex-start;
+  width: 70vh;
+}
+
+.main-nav-text,
+.interface-text {
+  padding: 0 2vh;
+  list-style: none;
+}
+
+.interface-text a {
+  text-decoration: none;
+  color: var(--priamary);
+  font-size: 1.125rem;
+}
+
+.main-nav-text a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.125rem;
+}
+
+.user-interface {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 6rem;
+}
+
+.interface-list,
+.user-interface {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+}
+
+.btn-login {
+  padding: 2vh;
+  border: none;
+  background-color: #0092e1;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  border-radius: 0.3rem;
+  font-weight: bold;
+  padding: 1.5vh 3.5vh;
+}
+
+.seb-logo {
+  width: 6rem;
+  height: 6rem;
+  background-color: green;
+}
+
+/* main-content */
+
+.main-content {
+  background-color: #eeeeee;
+  height: 4000vh;
+}
+
+.main-content-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25vh;
+  margin-left: 35vh;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-heading {
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
+  color: var(--secondary-color);
+}
+
+.main-heading-para {
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.main-content-heading a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-top: 3vh;
+  padding: 0.8rem 2rem;
+  width: 20rem;
+  border-radius: 0.3rem;
+  background-color: #0092e1;
+}
+
+/* main-first-section */
+
+.main-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+  height: 10vh;
+}
+
+.main-section-list {
+  background-color: #1a1a1a;
+}
+
+.main-bottom-nav li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.main-bottom-nav {
+  margin-left: 35vh;
+}
+
+/* main-second-section */
+
+.loan-box-container {
+  display: flex;
+  margin-left: 35vh;
+  margin-right: 35vh;
+  height: 14vh;
+}
+
+.box-loan-one {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 5vh 3vh 0;
+}
+
+.box-loan-more a {
+  text-decoration: none;
+  align-items: center;
+}
+
+.box-loan-one a,
+.box-loan-more a {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.box-loan-more {
+  padding: 3vh 0 0 18vh;
+}
+
+.box-stats {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+/* articles one*/
+
+.box-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.box-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 46%;
+  margin-right: 35vh;
+  margin-left: 35vh;
+  background-color: #ffffff;
+}
+
+/* flex articles */
+
+.article-one {
+  display: flex;
+}
+
+.article-one-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+}
+
+/*  */
+
+.article-one-text h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2vh 0;
+  color: var(--primary-color);
+}
+
+.article-one-text p {
+  font-size: 1.125rem;
+}
+
+.article-one-text a,
+.article-three-text a {
+  font-size: 1.125rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 12vh 0 0 0;
+}
+
+/* article two */
+
+.article-two {
+  display: flex;
+}
+
+.box-container-two {
+  display: flex;
+  justify-content: start;
+  height: 60%;
+  margin-right: 35vh;
+  margin-left: 35vh;
+  margin-top: 4vh;
+  background-color: #ffffff;
+}
+
+.box-container-two {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50%;
+  background-image: url(/img/seb-talks.jpg);
+}
+
+.article-two-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--secondary-color);
+  width: 35rem;
+  padding: 2vh 0 0 2vh;
+  margin-top: 50%;
+  background-color: #333333;
+}
+
+.article-two-text h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 2vh 0;
+}
+
+.article-two-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 8vh;
+  color: var(--secondary-color);
+  width: 45%;
+  height: 45%;
+  border: 1px solid #ffffff;
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+
+/* article three */
+
+.box-container-three {
+  background-color: #ffffff;
+  margin-top: 4vh;
+  height: 46%;
+  margin-right: 35vh;
+  margin-left: 35vh;
+}
+
+.article-three {
+  display: flex;
+}
+
+.article-three-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14vh;
+}
+
+.article-three-text p {
+  font-size: 1.125rem;
+}
+
+.article-three-text h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2vh 0;
+  color: var(--primary-color);
+}
+
+.article-three-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-three-links a {
+}
